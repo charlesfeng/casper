@@ -1,0 +1,19 @@
+{{! Previous/next page links - only displayed on page 2+ }}
+<p class="extra-pagination inner light">
+  {{pagination}}
+</p>
+
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+<div class="row">
+  <a class="img" href="{{url}}" style="background-image:url({{img}})"></a>
+  <div>
+    <h2><a href="url">{{{title}}}</h2>
+    <p>{{excerpt words="30"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
+    <p class="small">{{author}} {{tags prefix=" on "}} <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
+  </div>
+</div>
+{{/foreach}}
+
+{{! Previous/next page links - displayed on every page }}
+{{pagination}}
