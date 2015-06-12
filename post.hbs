@@ -43,6 +43,7 @@
   <h1>You may also like</h1>
   {{#next_post}}
   <div class="row">
+    <a class="img" href="{{url}}" style="background-image:url({{image}})"></a>
     <div>
       <h2><a href="url">{{{title}}}</a></h2>
       <p>{{excerpt words="24"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
@@ -51,6 +52,7 @@
   {{/next_post}}
   {{#prev_post}}
   <div class="row">
+    <a class="img" href="{{url}}" style="background-image:url({{image}})"></a>
     <div>
       <h2><a href="url">{{{title}}}</a></h2>
       <p>{{excerpt words="24"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
