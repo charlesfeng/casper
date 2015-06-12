@@ -55,7 +55,7 @@ p.small, .pagination {
   font-style: italic;
 }
 
-.post-content p {
+.home-template p, .post-content p {
   margin: 20px 0px;
 }
 
