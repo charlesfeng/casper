@@ -29,36 +29,36 @@ p.small, .pagination {
   margin-left: 10px;
 }
 
-.post-template .header > h1 {
+.post-header > h1 {
   margin-bottom: 5px;
 }
 
-.post-template .header > .small {
+.post-header > .small {
   margin-bottom: 30px;
   margin-top: 8px;
 }
 
-.post-template .header > .small > time {
+.post-header > .small > time {
   margin-left: 10px;
 }
 
-.post-template em {
+.post-content em {
   font-style: italic;
 }
 
-.post-template p {
+.post-content p {
   margin: 20px 0px;
 }
 
-.post-template li {
+.post-content li {
   margin: 15px 0px;
 }
 
-.post-template h3 {
+.post-content h3 {
   margin-top: 30px;
 }
 
-.post-template h4 {
+.post-content h4 {
   font-size: 16px;
   line-height: 20px;
   margin-top: 30px;
@@ -66,32 +66,32 @@ p.small, .pagination {
   text-transform: none;
 }
 
-.post-template h5 {
+.post-content h5 {
   font-size: 15px;
   line-height: 29px;
   margin-top: 30px;
   text-transform: uppercase;
 }
 
-.post-template ul {
+.post-content ul {
   list-style: disc;
   margin-left: 25px;
   margin-top: -5px;
 }
 
-.post-template ol {
+.post-content ol {
   list-style: decimal;
   margin-left: 25px;
   margin-top: -5px;
 }
 
-.post-template .share a {
+.post-share a {
   display: inline-block;
   vertical-align: middle;
   margin-left: 5px;
 }
 
-.post-template .share a:hover {
+.post-share a:hover {
   text-decoration: none;
 }
 
