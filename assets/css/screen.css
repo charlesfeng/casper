@@ -95,9 +95,16 @@ p.small, .pagination {
 }
 
 .post-share a {
+  color: #999;
   display: inline-block;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 5px;
   vertical-align: middle;
-  margin-left: 5px;
+}
+
+.post-share a:hover {
+  color: #666;
 }
 
 .post-share a .hidden {
