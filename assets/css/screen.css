@@ -33,12 +33,20 @@ p.small, .pagination {
   margin-bottom: 5px;
 }
 
+.post-template .header > .small > time {
+  margin-left: 10px;
+}
+
 .post-template em {
   font-style: italic;
 }
 
 .post-template p {
   margin: 20px 0px;
+}
+
+.post-template li {
+  margin: 15px 0px;
 }
 
 .post-template h3 {
@@ -50,14 +58,76 @@ p.small, .pagination {
   line-height: 20px;
   margin-top: 30px;
   text-decoration: underline;
+  text-transform: none;
 }
 
 .post-template ul {
   list-style: disc;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .post-template ol {
   list-style: decimal;
-  margin-left: 20px;
+  margin-left: 25px;
+}
+
+/* Apply these base styles to all icons */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "casper-icons", "Open Sans", sans-serif;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    text-decoration: none !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Import the font file with the icons in it */
+@font-face {
+    font-family: "casper-icons";
+    src:url("../fonts/casper-icons.eot");
+    src:url("../fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/casper-icons.woff") format("woff"),
+        url("../fonts/casper-icons.ttf") format("truetype"),
+        url("../fonts/casper-icons.svg#icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Each icon is created by inserting the correct character into the
+   content of the :before pseudo element. Like a boss. */
+.icon-ghost:before {
+    content: "\f600";
+}
+.icon-feed:before {
+    content: "\f601";
+}
+.icon-twitter:before {
+    content: "\f602";
+    font-size: 1.1em;
+}
+.icon-google-plus:before {
+    content: "\f603";
+}
+.icon-facebook:before {
+    content: "\f604";
+}
+.icon-arrow-left:before {
+    content: "\f605";
+}
+.icon-stats:before {
+    content: "\f606";
+}
+.icon-location:before {
+    content: "\f607";
+    margin-left: -3px; /* Tracking fix */
+}
+.icon-link:before {
+    content: "\f608";
+}
+.icon-menu:before {
+    content: "\f609";
 }
