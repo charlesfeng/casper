@@ -29,6 +29,17 @@ p.small, .pagination {
   margin-bottom: 5px;
 }
 
+.post-header > .img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: block;
+  float: right;
+  height: 64px;
+  width: 64px;
+}
+
 .post-header > .small {
   margin-bottom: 30px;
   margin-top: 8px;

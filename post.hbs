@@ -6,6 +6,7 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 <section class="post-header">
+<a class="img" style="background-image:url({{image}})"></a>
 <h1>{{title}}</h1>
 <p class="small">{{tags}} <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
 </section>
