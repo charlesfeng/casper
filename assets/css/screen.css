@@ -35,7 +35,9 @@ p.small, .pagination {
   background-repeat: no-repeat;
   border-radius: 10px;
   display: block;
-  float: right;
+  float: left;
+  margin-right: 15px;
+  margin-top: -10px;
   height: 64px;
   width: 64px;
 }
