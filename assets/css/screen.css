@@ -87,6 +87,10 @@ p.small, .pagination {
   margin-left: 5px;
 }
 
+.post-share a .hidden {
+  display: none;
+}
+
 .post-share a:hover {
   text-decoration: none;
 }
