@@ -1,0 +1,63 @@
+p.small, .pagination {
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.posts .row > div {
+  margin-left: 0px;
+}
+
+.posts .row > div > h2 > a {
+  color: black;
+  text-decoration: none;
+}
+
+.posts .row > div > h2 > a:hover {
+  text-decoration: underline;
+}
+
+.posts .row > div > p.small {
+  margin-top: 5px;
+}
+
+.posts .row > div > p.small > time {
+  margin-left: 10px;
+}
+
+.post-template .header > h1 {
+  margin-bottom: 5px;
+}
+
+.post-template em {
+  font-style: italic;
+}
+
+.post-template p {
+  margin: 20px 0px;
+}
+
+.post-template h3 {
+  margin-top: 30px;
+}
+
+.post-template h4 {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.post-template ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.post-template ol {
+  list-style: decimal;
+  margin-left: 20px;
+}

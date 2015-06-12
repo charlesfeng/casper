@@ -5,11 +5,7 @@
 
 {{! Everything inside the #author tags pulls data from the author }}
 {{#author}}
-<h1>Author: {{name}}</h1>
-<p>{{bio}}</p>
-{{/author}}
-
-<hr>
+<h1>Posts by {{name}}</h1>
 
 <div class="posts">
 {{! The tag below includes the post loop - partials/loop.hbs }}
