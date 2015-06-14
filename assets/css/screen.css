@@ -175,3 +175,26 @@ p.small, .pagination {
 .icon-menu:before {
     content: "\f609";
 }
+
+@media only screen and (max-device-width: 500px) {
+  p.small, .pagination {
+    font-weight: 400;
+  }
+
+  .posts .row > div > p.small > time {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .post-header > p.small {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .post-header > p.small > time {
+    display: block;
+    margin-left: 0px;
+    margin-top: 3px;
+  }
+}
