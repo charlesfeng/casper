@@ -177,6 +177,10 @@ p.small, .pagination {
 }
 
 @media only screen and (max-device-width: 500px) {
+  p.small, .pagination {
+    font-weight: 400;
+  }
+
   .posts .row > div > p.small > time {
     display: block;
     margin-left: 0px;
