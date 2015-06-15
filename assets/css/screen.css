@@ -21,6 +21,14 @@ p.small, .pagination {
   margin-top: 5px;
 }
 
+.posts .row > div > p.small > a {
+  color: #999;
+}
+
+.posts .row > div > p.small > a:hover {
+  color: #666;
+}
+
 .posts .row > div > p.small > time {
   margin-left: 10px;
 }
