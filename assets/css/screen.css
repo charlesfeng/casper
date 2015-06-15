@@ -211,4 +211,10 @@ p.small, .pagination {
     margin-left: 0px;
     margin-top: 3px;
   }
+
+  .post-share-follow {
+    display: block;
+    margin-bottom: 15px;
+    float: none;
+  }
 }
