@@ -93,13 +93,13 @@ p.small, .pagination {
 
 .post-content ul {
   list-style: disc;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-top: -5px;
 }
 
 .post-content ol {
   list-style: decimal;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-top: -5px;
 }
 
