@@ -145,11 +145,11 @@ p.small, .pagination {
 /* Import the font file with the icons in it */
 @font-face {
     font-family: "casper-icons";
-    src:url("../fonts/casper-icons.eot");
-    src:url("../fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/casper-icons.woff") format("woff"),
-        url("../fonts/casper-icons.ttf") format("truetype"),
-        url("../fonts/casper-icons.svg#icons") format("svg");
+    src:url("//charlesio.s3.amazonaws.com/fonts/casper-icons.eot");
+    src:url("//charlesio.s3.amazonaws.com/fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
+        url("//charlesio.s3.amazonaws.com/fonts/casper-icons.woff") format("woff"),
+        url("//charlesio.s3.amazonaws.com/fonts/casper-icons.ttf") format("truetype"),
+        url("//charlesio.s3.amazonaws.com/fonts/casper-icons.svg#icons") format("svg");
     font-weight: normal;
     font-style: normal;
 }
