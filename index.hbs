@@ -7,8 +7,11 @@
 <p>To get in touch, send me an email at <a href="mailto:charles@charles.io">charles@charles.io</a> or find me on <a href="https://www.linkedin.com/in/cfeng" target="_blank">LinkedIn</a>, <a href="https://github.com/charlesfeng" target="_blank">GitHub</a>, or <a href="https://twitter.com/fengocyte" target="_blank">Twitter</a>.</p>
 
 <hr>
-<div id='instafeed'></div>
-<hr>
+
+<div id='instafeed-box'>
+  <div id='instafeed'><div id='instafeed-spinner' class='spinner'></div></div>
+  <hr>
+</div>
 
 <h1>Recent posts</h1>
 <div class="posts">
@@ -21,6 +24,8 @@
   new Instafeed({
     get: 'user',
     userId: '1688077674',
-    accessToken: '1688077674.fd3e9c1.9aaa80b0832e40aaba81a6783725df88'
+    accessToken: '1688077674.fd3e9c1.9aaa80b0832e40aaba81a6783725df88',
+    limit: 5,
+    resolution: 'low_resolution'
   }).run();
 </script>
