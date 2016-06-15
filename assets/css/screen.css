@@ -191,6 +191,7 @@ p.small, .pagination {
 
 #instafeed-link {
   float: right;
+  margin-top: -4px;
 }
 
 #instafeed {
@@ -289,6 +290,6 @@ p.small, .pagination {
   }
 
   #instafeed {
-    display: none;
+    text-align: center;
   }
 }
