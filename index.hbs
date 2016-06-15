@@ -9,6 +9,8 @@
 <hr>
 
 <div id='instafeed-box'>
+  <a id='instafeed-link' href="https://www.instagram.com/fengocyte/?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
+  <h1>Instagram feed</h1>
   <div id='instafeed'><div id='instafeed-spinner' class='spinner'></div></div>
   <hr>
 </div>
@@ -27,7 +29,7 @@
     accessToken: '1688077674.fd3e9c1.9aaa80b0832e40aaba81a6783725df88',
     limit: 5,
     resolution: 'low_resolution',
-    template: '<a href="\{\{link\}\}" style="background-image:url(\'\{\{image\}\}\')"></a>',
+    template: '<a href="\{\{link\}\}" target="_blank" style="background-image:url(\'\{\{image\}\}\')"></a>',
     success: function () {
       document.getElementById('instafeed-spinner').remove();
     }
