@@ -189,6 +189,11 @@ p.small, .pagination {
     content: "\f609";
 }
 
+#instafeed {
+  height: 152px;
+  overflow: hidden;
+}
+
 #instafeed > a {
   background-size: cover;
   background-position: center;

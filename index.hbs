@@ -27,8 +27,8 @@
     accessToken: '1688077674.fd3e9c1.9aaa80b0832e40aaba81a6783725df88',
     limit: 5,
     resolution: 'low_resolution',
-    template: '<a href="{{link}}" style="background-image:url(\'{{image}}\')"></a>',
-    after: function () {
+    template: '<a href="\{\{link\}\}" style="background-image:url(\'\{\{image\}\}\')"></a>',
+    success: function () {
       document.getElementById('instafeed-spinner').remove();
     }
   }).run();
