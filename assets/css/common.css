@@ -41,6 +41,11 @@ ol {
   list-style-position: inside;
 }
 
+blockquote > p, blockquote > ul, blockquote > ol {
+  padding: 6px 12px;
+  border-left: 6px solid #eee;
+}
+
 hr {
   color: transparent;
   background-color: #eee;
