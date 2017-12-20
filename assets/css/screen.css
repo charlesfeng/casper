@@ -103,6 +103,11 @@ p.small, .pagination {
   margin-top: -5px;
 }
 
+.post-content blockquote > p, .post-content blockquote > ul, .post-content blockquote > ol {
+  padding: 6px 12px;
+  border-left: 6px solid #eee;
+}
+
 .post-share > p.small > a {
   color: #999;
   display: inline-block;
