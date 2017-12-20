@@ -110,6 +110,7 @@ p.small, .pagination {
 
 .post-content blockquote > ul, .post-content blockquote > ol {
   padding-left: 32px;
+  border-left: 6px solid #eee;
 }
 
 .post-share > p.small > a {
