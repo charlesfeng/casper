@@ -104,13 +104,21 @@ p.small, .pagination {
 }
 
 .post-content blockquote > p {
-  padding: 6px 12px;
+  padding: 8px 12px;
   border-left: 6px solid #eee;
 }
 
 .post-content blockquote > ul, .post-content blockquote > ol {
-  padding: 6px 12px 6px 32px;
+  padding: 8px 12px 8px 32px;
   border-left: 6px solid #eee;
+}
+
+.post-content blockquote > ul > li:first-child,  .post-content blockquote > ol > li:first-child {
+  margin-top: 0px;
+}
+
+.post-content blockquote > ul > li:last-child,  .post-content blockquote > ol > li:last-child {
+  margin-bottom: 0px;
 }
 
 .post-share > p.small > a {
