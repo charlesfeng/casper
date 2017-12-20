@@ -93,19 +93,23 @@ p.small, .pagination {
 
 .post-content ul {
   list-style: disc;
-  margin-left: 30px;
+  padding-left: 25px;
   margin-top: -5px;
 }
 
 .post-content ol {
   list-style: decimal;
-  margin-left: 30px;
+  padding-left: 25px;
   margin-top: -5px;
 }
 
-.post-content blockquote > p, .post-content blockquote > ul, .post-content blockquote > ol {
+.post-content blockquote > p {
   padding: 6px 12px;
   border-left: 6px solid #eee;
+}
+
+.post-content blockquote > ul, .post-content blockquote > ol {
+  padding-left: 32px;
 }
 
 .post-share > p.small > a {
