@@ -8,30 +8,8 @@
 
 <hr>
 
-<div id='instafeed-box'>
-  <a id='instafeed-link' href="https://www.instagram.com/fengocyte/?ref=badge" class="ig-b- ig-b-32" target='_blank'><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
-  <h1>@fengocyte</h1>
-  <div id='instafeed'><div id='instafeed-spinner' class='spinner'></div></div>
-  <hr>
-</div>
-
 <h1>Recent posts</h1>
 <div class="posts">
 {{! The tag below includes the post loop - partials/loop.hbs }}
 {{> "loop"}}
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
-<script>
-  new Instafeed({
-    get: 'user',
-    userId: '1688077674',
-    accessToken: '1688077674.1677ed0.e614132977e84b3aadc676f38a3b98cc',
-    limit: 5,
-    resolution: 'low_resolution',
-    template: '<a href="\{\{link\}\}" target="_blank" style="background-image:url(\'\{\{image\}\}\')"></a>',
-    success: function () {
-      document.getElementById('instafeed-spinner').remove();
-    }
-  }).run();
-</script>
